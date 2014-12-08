@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>yaws-gentoo-overlay</name>
+    <description lang="en">Yaws is a high performance HTTP 1.1 web server.</description>
+    <homepage>http://yaws.hyber.org</homepage>
+    <owner type="person">
+      <email>christopher.faulet@capflam.org</email>
+      <name>Christopher Faulet</name>
+    </owner>
+    <source type="git">https://github.com/capflam/yaws-gentoo-overlay.git</source>
+    <source type="git">git://github.com/capflam/yaws-gentoo-overlay.git</source>
+    <source type="git">git@github.com:capflam/yaws-gentoo-overlay.git</source>
+    <feed>https://github.com/capflam/yaws-gentoo-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
