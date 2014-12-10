@@ -44,7 +44,7 @@ pkg_postinst() {
 	einfo "An example YAWS configuration has been setup to run on"
 	einfo "Please edit /etc/yaws/yaws.conf to suit your needs."
 
-	if test -d /usr/$(get_libdir)/yaws; then
+	if test -d /usr/$(get_libdir)/yaws && test ! -h /usr/$(get_libdir)/yaws; then
 		backupdir="/usr/$(get_libdir)/yaws.backup"
 		einfo "backup old yaws directory into ${backupdir}"
 		mv /usr/$(get_libdir)/yaws ${backupdir}
